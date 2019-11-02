@@ -1,0 +1,11 @@
+start:2019-11-02 20:31:24
+function                       1989     +1989
+wrapper_descriptor             1115     +1115
+dict                            977      +977
+method_descriptor               798      +798
+builtin_function_or_method      797      +797
+weakref                         580      +580
+tuple                           564      +564
+getset_descriptor               401      +401
+Test        1        +1
+end:2019-11-02 20:31:24

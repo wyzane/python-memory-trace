@@ -1,0 +1,31 @@
+digraph ObjectGraph {
+  node[shape=box, style=filled, fillcolor=white];
+  o140597297806248[fontcolor=red];
+  o140597297806248[label="Test\n<__main__.Test object at 0x7fdf5bfdfba8>"];
+  o140597297806248[fillcolor="0,0,1"];
+  o140597297747848 -> o140597297806248;
+  o140597297809160 -> o140597297806248;
+  o140597297747848[label="list\n1 items"];
+  o140597297747848[fillcolor="0,0,0.93"];
+  o140597303767544 -> o140597297747848 [label="seq",weight=2];
+  o140597297809160[label="list\n1 items"];
+  o140597297809160[fillcolor="0,0,0.93"];
+  o140597303767544[label="dict\n13 items"];
+  o140597303767544[fillcolor="0,0,0.86"];
+  o140597304284008 -> o140597303767544 [label="__dict__",weight=10];
+  o140597304201832 -> o140597303767544 [label="__globals__",weight=10];
+  o140597304284008[label="module\n__main__"];
+  o140597304284008[fillcolor="0.3,1,0.79"];
+  o140597304201832[label="function\n<function func at 0x7fdf5c5f9268>"];
+  o140597304201832[fillcolor="0,0,0.79"];
+  o140597297722424 -> o140597304201832;
+  o140597297722424[label="cell\n<cell at 0x7fdf5bfcb438: function object"];
+  o140597297722424[fillcolor="0,0,0.72"];
+  o140597297696008 -> o140597297722424;
+  o140597297696008[label="tuple\n2 items"];
+  o140597297696008[fillcolor="0,0,0.65"];
+  o140597304004952 -> o140597297696008 [label="__closure__",weight=10];
+  o140597304004952[label="function\n<function ObjectTrace.__call__.<locals>."];
+  o140597304004952[fillcolor="0,0,0.58"];
+  o140597303767544 -> o140597304004952 [label="func",weight=2];
+}

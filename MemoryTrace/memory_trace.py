@@ -14,6 +14,8 @@ import tracemalloc
 
 class MemoryTrace:
 
+    __slots__ = ('frame', 'mem_top', 'key_type', 'mapping_key_type')
+
     def __init__(self, frame=1, mem_top=10, key_type="lineno"):
         self.frame = frame
         self.mem_top = mem_top
